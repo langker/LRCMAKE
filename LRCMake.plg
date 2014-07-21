@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LRCMake - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/LRCMake.res" /d "_DEBUG" /d "_AFXDLL" "D:\程序设计\LRCMake\LRCMake.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/LRCMake.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\程序设计\LRCMake\about.cpp"
+"D:\程序设计\LRCMake\LRCMake.cpp"
+"D:\程序设计\LRCMake\LRCMakeDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/LRCMake.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\程序设计\LRCMake\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF8.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/LRCMake.pdb" /debug /machine:I386 /out:"Debug/LRCMake.exe" /pdbtype:sept  ".\Debug\about.obj" ".\Debug\LRCMake.obj" ".\Debug\LRCMakeDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\LRCMake.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+about.cpp
+LRCMake.cpp
+LRCMakeDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+LRCMake.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
